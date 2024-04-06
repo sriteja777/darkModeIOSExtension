@@ -657,7 +657,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 8XPT93F9Q7;
+				DEVELOPMENT_TEAM = N6H2RQ825Y;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = darkModeExtension/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = darkModeExtension;
@@ -677,8 +677,9 @@
 					SafariServices,
 					"-framework",
 					WebKit,
+					"-Wl,-undefined,dynamic_lookup",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.browserstack.darkModeExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mine.darkModeExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -692,7 +693,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 8XPT93F9Q7;
+				DEVELOPMENT_TEAM = N6H2RQ825Y;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = darkModeExtension/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = darkModeExtension;
@@ -713,7 +714,7 @@
 					"-framework",
 					WebKit,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.browserstack.darkModeExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mine.darkModeExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
